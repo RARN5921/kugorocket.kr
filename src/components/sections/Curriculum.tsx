@@ -5,21 +5,21 @@ import { Lightbulb, Code, Rocket } from 'lucide-react';
 
 const stages = [
   {
-    title: 'Stage 1: Idea',
+    title: 'Stage 1: Design',
     icon: Lightbulb,
-    description: '문제 해결을 위한 창의적인 아이디어를 도출하고 비즈니스 모델을 검증합니다.',
+    description: '기초 이론을 학습하고, 해석 소프트웨어를 통해 로켓의 비행 안정성과 성능을 설계합니다.',
     color: 'bg-yellow-500/10 text-yellow-500'
   },
   {
-    title: 'Stage 2: Build',
+    title: 'Stage 2: Fabrication',
     icon: Code,
-    description: 'MVP(Minimum Viable Product)를 직접 개발하며 기술적 역량을 키웁니다.',
+    description: '설계한 도면을 바탕으로 추진기관, 제어 시스템, 기체 구조를 직접 제작하고 조립합니다.',
     color: 'bg-blue-500/10 text-blue-500'
   },
   {
-    title: 'Stage 3: Launch',
+    title: 'Stage 3: Flight',
     icon: Rocket,
-    description: '실제 시장에 제품을 런칭하고 사용자 피드백을 통해 성장합니다.',
+    description: '제작된 로켓을 발사하여 비행 데이터를 수집하고, 분석을 통해 기술을 고도화합니다.',
     color: 'bg-brand/10 text-brand'
   }
 ];
@@ -30,7 +30,7 @@ export default function Curriculum() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-4">Our Curriculum</h2>
-          <p className="text-gray-400">3단계를 거쳐 진정한 창업가로 거듭납니다.</p>
+          <p className="text-gray-400">설계부터 발사까지, 실전적인 로켓 공학을 경험합니다.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

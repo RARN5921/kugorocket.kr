@@ -5,8 +5,8 @@ export default function Footer() {
         <div>
           <h2 className="text-2xl font-bold tracking-tighter mb-2">GOROCKET</h2>
           <p className="text-gray-400 text-sm max-w-xs">
-            IT Startup Club founded in 2019 at Korea University.
-            Building the next generation of innovators.
+            고려대학교 기계공학부 로켓제작 소모임 (Founded in 2019).
+            하늘을 향한 열정으로 미지의 세계를 탐구합니다.
           </p>
         </div>
 
