@@ -21,7 +21,7 @@ export default function Hero() {
           GOROCKET
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          고려대학교 IT 스타트업 학회 고로켓은 아이디어를 현실로 만드는 창업가들의 커뮤니티입니다.
+          고려대학교 기계공학부 로켓제작 소모임 고로켓은 하늘을 향한 열정으로 미지의 세계를 탐구하는 커뮤니티입니다.
         </p>
 
         <div className="flex items-center justify-center gap-4">

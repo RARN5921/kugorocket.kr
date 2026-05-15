@@ -4,6 +4,7 @@ import Hero from '@/components/sections/Hero';
 import Curriculum from '@/components/sections/Curriculum';
 import History from '@/components/sections/History';
 import Members from '@/components/sections/Members';
+import OrgChart from '@/components/sections/OrgChart';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Curriculum />
+      <OrgChart />
       <History />
       <Members />
       <Footer />
